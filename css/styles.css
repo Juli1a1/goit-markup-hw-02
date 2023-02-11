@@ -30,7 +30,9 @@ font-weight: 500;
 }
 .header-link:hover {
 color: var(--color-brand);}
-
+.header-link:focus{
+color: var(--color-brand);
+}
 
 .header-adress {
 font-weight: 400;
@@ -38,8 +40,12 @@ letter-spacing: 0.02em;
 font-size: 16px;
 line-height: 1.5;
 color: var(--color-secondary);
+text-decoration: none;
 }
 .header-adress:hover {
+color: var(--color-brand);
+}
+.header-adress:focus{
 color: var(--color-brand);
 }
 .button {
@@ -52,6 +58,7 @@ font-size: 16px;
 line-height: 1.5;
 font-family: 'Roboto',sans-serif;
 letter-spacing: 0.04em;
+font-weight: 500;
 }
 .button:hover{
 background:var(--color-brand);
@@ -125,7 +132,6 @@ letter-spacing: 0.02em;
 color: var(--color-secondary);
 font-size:20px;
 line-height: 1.2;
-font-weight: 400;
 letter-spacing: 0.02em;
 }
 .card-profession2{
@@ -146,6 +152,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 }
+
 .name-section-team {
 color: var(--color-primary);
 font-size: 36px;
@@ -165,23 +172,30 @@ background:var(--color-primary);
 
 
 /* Portfolio */
-
 .button-all {
+letter-spacing: 0.04em;
+color: var(--color-brand-second);
 font-size: 16px;
 line-height: 1.5;
-color: var(--color-button-title);
-letter-spacing: 0.04em;
-background: var(--color-logo-footer);
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
 cursor: pointer;
-font-family: 'Roboto',sans-serif
+background: var(--color-logo-footer);
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+font-family: 'Roboto', sans-serif;
 }
 .button-all:focus{
+color: var(--color-button-title);
 background: var(--color-brand);
 }
 .button-all:hover{
-    background: var(--color-brand);
+background: var(--color-brand);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: var(--color-button-title);
+letter-spacing: 0.04em;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
 }
 
 
@@ -189,7 +203,7 @@ background: var(--color-brand);
 letter-spacing: 0.04em;
 color: var(--color-brand-second);
 font-size: 16px;
-line-height:1.5;
+line-height: 1.5;
 cursor: pointer;
 background: var(--color-logo-footer);
 border: 1px solid #E7E9FC;
@@ -197,79 +211,113 @@ border-radius: 4px;
 font-family: 'Roboto', sans-serif;
 }
 .button-website:focus {
+color: var(--color-button-title);
 background: var(--color-brand);
 }
 
 .button-website:hover {
 background: var(--color-brand);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: var(--color-button-title);
+letter-spacing: 0.04em;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
 }
 
 
 .button-app {
 letter-spacing: 0.04em;
+color: var(--color-brand-second);
 font-size: 16px;
 line-height: 1.5;
 cursor: pointer;
-color: var(--color-brand-second);
 background: var(--color-logo-footer);
 border: 1px solid #E7E9FC;
 border-radius: 4px;
 font-family: 'Roboto', sans-serif;
 }
 .button-app:focus {
+color: var(--color-button-title);
 background: var(--color-brand);
 }
 
 .button-app:hover {
 background: var(--color-brand);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: var(--color-button-title);
+letter-spacing: 0.04em;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
 }
 
 .button-design {
 letter-spacing: 0.04em;
+color: var(--color-brand-second);
 font-size: 16px;
 line-height: 1.5;
 cursor: pointer;
-color: var(--color-brand-second);
 background: var(--color-logo-footer);
 border: 1px solid #E7E9FC;
 border-radius: 4px;
 font-family: 'Roboto', sans-serif;
 }
-.button-desing:focus {
+.button-design:focus {
+color: var(--color-button-title);
 background: var(--color-brand);
 }
 
-.button-desing:hover {
- background: var(--color-brand);
+.button-design:hover {
+background: var(--color-brand);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: var(--color-button-title);
+letter-spacing: 0.04em;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
 }
 .button-marketing {
 letter-spacing: 0.04em;
+color: var(--color-brand-second);
 font-size: 16px;
 line-height: 1.5;
 cursor: pointer;
-color: var(--color-brand-second);
 background: var(--color-logo-footer);
 border: 1px solid #E7E9FC;
 border-radius: 4px;
 font-family: 'Roboto', sans-serif;
 }
 .button-marketing:focus {
+color: var(--color-button-title);
 background: var(--color-brand);
 }
 
 .button-marketing:hover {
 background: var(--color-brand);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: var(--color-button-title);
+letter-spacing: 0.04em;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
 }
 
  .section-port {
 display: none;
  }
+.title-portfolio1{
+display: none;
+}
 .title-portfolio{
-color: var(--color-primary);
-letter-spacing: 0.02em;
 font-size: 20px;
 line-height: 1.2;
-font-weight: 500;
+letter-spacing: 0.02em;
+color: var(--color-primary);
 }
  .under-title-port {
 font-size: 16px;
